@@ -20,4 +20,4 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Set command to run docker container
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
